@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://www.mh163k.com/k/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>快店</title>
+<meta name="keywords" content="北京地方门户,百姓生活门户,北京地区分类信息">
+<meta name="description" content="本站是163k地方门户网站系统的官方演示站点">
+<link rel="stylesheet" rev="stylesheet" href="./css/g2013.css">
+<link rel="stylesheet" rev="stylesheet" href="./css/styleX4.css">
+<link rel="stylesheet" rev="stylesheet" href="./css/kuaisonIndex.css">
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/commonX4.js"></script>
+<style type="text/css">
+#listEmpty { width:1196px;}
+</style>
+</head>
+<body>
+<div class="wrapper">
+	<div class="header clearfix" id="header">
+		<div class="w-1200">
+			<div class="logo"><a href="http://www.mh163k.com/"><img src="./images/201506240915412273038.jpg" alt="163k地方门户网站系统"></a></div>
+			<div class="subLogo"><a href="http://www.mh163k.com/k/"><img src="./images/kuaisonLogo.gif" alt="快买快送"></a></div>
+			<div class="login_info">
+				<span id="login_info" class="login_info_inner"><a href="http://www.mh163k.com/member/login.html?from=http%3A%2F%2Fwww.mh163k.com%2Fk%2F" class="sys_btn">登录</a><a href="http://www.mh163k.com/member/register.html?from=http%3A%2F%2Fwww.mh163k.com%2Fk%2F" class="sys_btn">注册</a><input value="0" id="isLogin" type="hidden"><script>setTimeout(function(){is_login("http://www.mh163k.com/","http://www.mh163k.com/template/pc/main/default/")},100);</script></span>
+				<a href="http://www.mh163k.com/member/myorder.aspx" class="sys_btn btn_null">我的订单</a>
+				<a href="http://www.mh163k.com/" class="return_home">门户首页</a>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="index_banner_wrapper"><div class="index_banner">
+			<p class="line"></p>
+			<div class="w-1200 po_re">
+				<a href="javascript:void(0);" class="mobile_view">手机访问</a>
+				<a href="http://www.mh163k.com/member/myorder.aspx?action=myshoppay" class="buy_car">购物车</a>
+				<a href="http://www.mh163k.com/member/my_good_shop.aspx" class="ruzhu"><img src="./images/kuaison_ruzhu_ico.png" alt=""></a>
+			</div>
+		</div></div>
+		<div class="index_banner_bottom">
+			<div class="steps clearfix">
+				<span class="sp_1">1.查找身边便利店、餐厅</span><span class="sp_2">2. 网上或手机下单，商家快速配送</span><span class="sp_3">3. 最快20分钟送达，货到付款！</span>
+			</div>
+		</div>
+		<div class="w-1198">
+			<div class="filter" id="filter">
+				<div class="line line1">
+					<span class="sp">分类</span><a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="0" id="s_f_0" class="selected">不限</a><a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e0_f692_g0_h0_i0_p1.html#filter" data-id="692" id="s_f_692">餐饮美食(11)</a><a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e0_f693_g0_h0_i0_p1.html#filter" data-id="693" id="s_f_693">便利店(11)</a><a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e0_f702_g0_h0_i0_p1.html#filter" data-id="702" id="s_f_702">自定义(0)</a>
+					<div class="small display0">
+					
+					</div>
+				</div>
+				<div class="line line2">
+					<span class="sp">位置</span><a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="0" id="s_a_0" class="selected">不限</a><a href="http://www.mh163k.com/kd_a1_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="1" id="s_a_1">朝阳区(3)</a><a href="http://www.mh163k.com/kd_a2_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="2" id="s_a_2">海淀区(4)</a><a href="http://www.mh163k.com/kd_a11_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="11" id="s_a_11">丰台区(3)</a><a href="http://www.mh163k.com/kd_a12_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="12" id="s_a_12">西城区(2)</a><a href="http://www.mh163k.com/kd_a13_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="13" id="s_a_13">通州区(3)</a><a href="http://www.mh163k.com/kd_a77_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="77" id="s_a_77">东城区(3)</a><a href="http://www.mh163k.com/kd_a78_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="78" id="s_a_78">昌平区(2)</a><a href="http://www.mh163k.com/kd_a79_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="79" id="s_a_79">宣武区(1)</a><a href="http://www.mh163k.com/kd_a80_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="80" id="s_a_80">崇文区(1)</a><a href="http://www.mh163k.com/kd_a82_b0_c0_d0_e0_f0_g0_h0_i0_p1.html#filter" data-id="82" id="s_a_82">其他区县(0)</a>
+					<div class="small display0">
+					
+					</div>
+				</div>
+			</div>
+			<div class="sort clearfix">
+				<div class="inner">
+					<ul>
+						<li id="sort_c0" class="cur"><a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e0_f0_g0_h0_i0_p1.html?_key=#filter" onclick="return getPagingGlobal({&#39;c&#39;:&#39;0&#39;,&#39;p&#39;:&#39;1&#39;},this);">附近的快店</a></li>
+						
+						<li id="sort_c2" class="p"><a href="http://www.mh163k.com/kd_a0_b0_c2_d0_e0_f0_g0_h0_i0_p1.html?_key=#filter" onclick="return getPagingGlobal({&#39;c&#39;:&#39;2&#39;,&#39;p&#39;:&#39;1&#39;},this);">推荐的快店<s class="s jiang"></s></a></li>
+					</ul>
+				</div>
+				<div class="business" id="business">
+					<ul>
+						<li id="business_d0"><a href="http://www.mh163k.com/kd_a0_b0_c0_d1_e0_f0_g0_h0_i0_p1.html?_key=#filter" onclick="return showCatDE({&#39;d&#39;:&#39;1&#39;,&#39;p&#39;:&#39;1&#39;},this);">营业中</a></li>
+						<li id="business_e0"><a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e1_f0_g0_h0_i0_p1.html?_key=#filter" onclick="return showCatDE({&#39;e&#39;:&#39;1&#39;,&#39;p&#39;:&#39;1&#39;},this);">免配送费</a></li>
+					</ul>
+				</div>
+				<div class="search">
+					<form action="http://www.mh163k.com/k_good_a0_b0_c0_d0_e0_f0_g0_p1.html" target="_blank" method="get" id="myform">
+						<p class="left">
+							<input id="mySle_input" type="button" class="selectbox" autocomplete="off" readonly="readonly" value="商品"><div id="mySle_container" class="selectbox-wrapper" style="display: none;"><ul><li id="mySle_input_2" class="selected">商品</li><li id="mySle_input_1">快店</li></ul></div><select style="display: none;" id="mySle">
+								<option selected="selected" value="2">商品</option>
+								<option value="1">快店</option>
+							</select>
+						</p>
+						<p class="left">
+							<input class="s_ipt" id="meSleKey" type="text" name="_key" data-value="" onfocus="if(this.value==&#39;输入您要找的美食、商品关键词&#39;){this.value=&#39;&#39;;this.style.color=&#39;#333&#39;}" value="输入您要找的美食、商品关键词" style="color:#aaa;"><button type="submit" class="s_btn">搜索</button>
+						</p>
+					</form>
+				</div>
+			</div>
+			<div class="list" id="goodshopList">
+				<ul class="clearfix" id="pagingList">
+						<li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k40.html" target="_blank" class="link">
+	<s class="s is_top display11"></s>
+	<img src="./images/2015051517442490718561.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">瑞祥阁美味快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">通州区北关美术馆后街23号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="2" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k38.html" target="_blank" class="link">
+	<s class="s is_top display11"></s>
+	<img src="./images/2015051516193153265011.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">炫多滋餐饮快送</span>
+	<span class="timer clearfix"><em class="state state_2">暂停营业</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">朝阳区大望路东南路153号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k39.html" target="_blank" class="link">
+	<s class="s is_top display11"></s>
+	<img src="./images/2015051516203636072341.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">大旗便利快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">海淀区小营东三旗文三路77号</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k41.html" target="_blank" class="link">
+	<s class="s is_top display11"></s>
+	<img src="./images/2015051521083776630331.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">美乐多便利快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">丰台区云岗东街雨花北里66号</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k42.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051516080048591101.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">土大力餐饮快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">朝阳区大望路东南路153号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k44.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051516403998580051.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">石锅香辣蛙快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">朝阳区大望路东南路153号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k46.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051517003257953101.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">上岛咖啡快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">昌平区天通苑天通东路创富大厦2F</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k48.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051512284236068891.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">徐记海鲜快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">丰台区丰台路西四环南路30号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k50.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051515571454835931.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">稻香蛙快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">西城区百万庄展览路西53号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k52.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051515530509497861.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">小蜜蜂餐饮快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">东城区安定门东大街66号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k54.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051516474575180201.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">尚沃汤多多快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">海淀区双榆树中关村南大街41号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k56.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051516465346976411.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">美膳坊餐饮快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">昌平区小汤山山阴路153号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="1" data-startdate="11:00" data-enddate="14:30" data-startdate2="17:00" data-enddate2="22:30"><a href="http://www.mh163k.com/k58.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051516322315726941.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">布衣家宴餐饮快送</span>
+	<span class="timer clearfix"><em class="state state_3">打烊了</em><span class="inner"><span class="display11">11:00-14:30　</span><span class="display11">17:00-22:30</span></span></span>
+	<span class="address">西城区阜成门北张庄路南段73号</span>
+	<span class="cat cat_1">品牌快餐</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k59.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051511474353279491.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">快乐便利快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">丰台区太平桥太平路77号</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k57.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051516410831342281.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">利客隆百货快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">通州区八里桥黄河路77号</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k55.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051521045418810691.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">OK便利快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">宣武区菜市口菜市口大街临80号文化馆</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k53.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051521180661020691.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">新世纪百货快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">海淀区牡丹园牡丹路76号甲座A12</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k51.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051521225126692941.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">三利百货快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">东城区和平里西街乙76号</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k49.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051514334678263111.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">易捷24h快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">通州区八里桥复兴路中段83号</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li><li class="item" data-isopen="1" data-shipkill="0" data-startkill="1" data-start2kill="0" data-startdate="08:00" data-enddate="22:00" data-startdate2="00:00" data-enddate2="23:59"><a href="http://www.mh163k.com/k47.html" target="_blank" class="link">
+	<s class="s is_top display10"></s>
+	<img src="./images/2015051517031837684811.jpg" onerror="this.src=&#39;http://www.mh163k.com/template/pc/main/default/images/kuaison_nofind.gif&#39;;this.onerror=&#39;&#39;;" class="viewImg" alt="">
+	<span class="tit">伊佳便利快送</span>
+	<span class="timer clearfix"><em class="state state_1">营业中</em><span class="inner"><span class="display11">08:00-22:00　</span><span class="display10">00:00-23:59</span></span></span>
+	<span class="address">崇文区广渠门杨庄文路77号</span>
+	<span class="cat cat_1">生活日用</span>
+	<span class="icon"><s class="i_zeng display11"></s><s class="i_jian display11"></s><s class="i_first display11"></s></span>
+	
+	</a>
+</li>
+	<script>
+	var keyvalues = {"table_id":24,
+	"pagesize":20,
+	"tplpath":"k",
+	"tplname":"paging_k_index_list.html", //原k/listproducts.htm复制得来
+	"strlen":100,	
+	"titleLen":80,
+	"isjson":0,
+	"p":"1",
+	"_key":"",
+	"a":"0",////kd_a(区大)_b(区小)_c排序(1新2推荐3排序)_d(1营业中,2可预订)_e(1免费配送)_f店类大_g店类小_h0_i0_p().html?_key=
+	"b":"0",//
+	"c":"0",
+	"d":"0",
+	"e":"0",//
+	"g":"0",//
+	"h":"0",//
+	"i":"0",//
+	"x":"",//用户坐标x
+	"y":""//用户坐标y
+};</script>
+</ul>
+<div class="sys_more pageNavigation" id="pageNavigation"><span class="kill">&lt;</span> <span class="current">1</span> <a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e0_f0_g0_h0_i0_p2.html#filter" onclick="return getPagingGlobal({&#39;p&#39;:&#39;2&#39;});">2</a> <a href="http://www.mh163k.com/kd_a0_b0_c0_d0_e0_f0_g0_h0_i0_p2.html#filter" onclick="return getPagingGlobal({&#39;p&#39;:&#39;2&#39;});" title="下一页">&gt;</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+	<div class="w-1200">
+			<ul class="ul clearfix">
+				<li class="col noBorder"><ul>
+					<li class="t t_1">客服专线</li>
+					<li class="tel">4006755354</li>
+					<li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=910002968&amp;site=qq&amp;menu=yes" title="点击这里给我发消息"><img border="0" src="./images/pa" style="width:77px; height:22px;" alt="点击这里给我发消息" title="点击这里给我发消息"></a></li>
+				</ul></li>
+				<li class="col"><ul>
+					<li class="t t_2"><a href="http://www.mh163k.com/member/index.html">用户中心</a></li>
+					<li><a href="http://www.mh163k.com/help/">新手上路</a></li>
+					<li><a href="http://www.mh163k.com/find.aspx">找回密码</a></li>
+				</ul></li>
+				<li class="col"><ul>
+					<li class="t t_3"><a href="http://www.mh163k.com/help/article_13.html">联系我们</a></li>
+					<li><a href="http://www.mh163k.com/company/join.aspx">商家入驻</a></li>
+					<li><a href="http://www.mh163k.com/member/userindex_s.aspx">管理平台</a></li>
+				</ul></li>
+				<li class="col"><ul>
+					<li class="t t_4"><a href="http://www.mh163k.com/help/">帮助中心</a></li>
+					<li><a href="http://www.mh163k.com/help/article_10.html">服务内容</a></li>
+					<li><a href="http://www.mh163k.com/help/article_14.html">免责声明</a></li>
+				</ul></li>
+			</ul>
+			<div class="footer-nav-2014">
+				<ul class="clearfix">
+					<li class="first"><a href="http://www.mh163k.com/k/#" onclick="this.style.behavior=&quot;url(#default#homepage)&quot;; this.setHomePage(&quot;http://www.mh163k.com/&quot;);return false;">设为首页</a></li><li><a href="http://www.mh163k.com/k/#" onclick="window.external.AddFavorite(&#39;http://www.mh163k.com/&#39;,&#39;163k地方门户网站系统&#39;);return false;">加为收藏</a></li><li><a href="http://www.mh163k.com/help/article_1.html" target="_blank">网站介绍</a></li><li><a href="http://www.mh163k.com/help/article_7.html" target="_blank">关于我们</a></li><li><a href="http://www.mh163k.com/help/article_10.html" target="_blank">服务条款</a></li><li><a href="http://www.mh163k.com/help/article_11.html" target="_blank">广告服务</a></li><li><a href="http://www.mh163k.com/help/article_12.html" target="_blank">招聘信息</a></li><li><a href="http://www.mh163k.com/help/article_14.html" target="_blank">免责声明</a></li><li><a href="http://www.mh163k.com/help/article_13.html" target="_blank">联系我们</a></li>
+				</ul>
+			</div>
+			<p class="copyright">Copyright @ 2003-2015 163k.com All Right Reserved @中国北京@为互联网事业发展助跑 网站备案：<a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备06006761号</a>　<script src="./images/stat.php" language="JavaScript" charset="gb2312"></script><script src="./images/core.php" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1488135" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./images/pic.gif"></a></p>
+		</div>
+	</div>
+</div>
+<script src="./js/select.jQuery.js"></script>
+<script src="./js/commonPaging.js"></script>
+<script>
+var nowdomain ="http://www.mh163k.com/";
+window['Default_tplPath'] = 'http://www.mh163k.com/template/pc/main/default/';
+(function($){
+	$('#mySle').selectbox();
+	$('#mySle').change(function(){
+		var myform = $('#myform');
+		var val = $(this).val();
+		if(val === '1'){
+			myform.attr({'action':'?','target':'_self'});
+		}else{
+			myform.attr({'action':'../k_good_a0_b0_c0_d0_e0_f0_g0_p1.html','target':'_blank'});
+		}
+		$('#meSleKey').val('').focus();
+	});
+	getkill();
+	$.fn.showMore = function(c_name){
+		var t = $(this);
+		t.hover(function(){
+			t.toggleClass(c_name);
+		});
+	}
+	//$('#business').showMore('open');
+	$.returnTop();
+	$('#sort_c0').addClass('cur');
+	if($('#business_d1')[0]){
+		$('#business_d1').addClass('cur').find('a').attr({'href':'../kd_a0_b0_c0_d0_e0_f0_g0_h0_i0_p1.html?_key=#filter','onClick':'return showCatDE({\'d\':\'0\',\'p\':\'1\'},this);'});
+	}
+	if($('#business_e1')[0]){
+		$('#business_e1').addClass('cur').find('a').attr({'href':'../kd_a0_b0_c0_d0_e0_f0_g0_h0_i0_p1.html?_key=#filter','onClick':'return showCatDE({\'e\':\'0\',\'p\':\'1\'},this);'});
+	}
+	if($('#listEmpty')[0]){
+		$('#listEmpty').html('抱歉，没有找到符合条件的店家');
+	}
+})(jQuery);
+function showCatDE(obj,node){
+	getPagingGlobal(obj);
+	if(typeof obj.d !== 'undefined'){
+		obj.d === '0'?($(node).attr({'onClick':'return showCatDE({\'d\':\'1\'},this)'}),$(node).parent().removeClass('cur')):($(node).attr({'onClick':'return showCatDE({\'d\':\'0\'},this)'}),$(node).parent().addClass('cur'));
+	}else{
+		obj.e === '0'?($(node).attr({'onClick':'return showCatDE({\'e\':\'1\'},this)'}),$(node).parent().removeClass('cur')):($(node).attr({'onClick':'return showCatDE({\'e\':\'0\'},this)'}),$(node).parent().addClass('cur'));
+	}
+	return false;
+}
+function getPagingGlobal(obj,node){
+	keyvalues["p"]='1';
+	keyvalues = $.extend({},keyvalues,obj);
+	get_data_paging(callback);
+	function callback(data){
+		if(data[0].islogin !== '1'){MSGwindowShow('revert','0',data[0].error,'','');return;}
+		$('#pagingList').html(data[0].MSG);
+		$('#pageNavigation').html(data[0].PageSplit);
+		getkill();
+	}
+	if(typeof node !== 'undefined'){
+		$(node).parent().siblings('.cur').removeClass('cur');
+		$(node).parent().addClass('cur');
+	}
+	return false;
+}
+function getkill(){
+	var sys_time = Date.parse('07/13/2016 08:23:20');
+	var iDate = new Date();
+	var theYear = iDate.getFullYear();
+	var theMonth = iDate.getMonth()+1;
+	theMonth = theMonth>9?theMonth.toString():'0' + theMonth;
+	var theDay = iDate.getDate();
+	var today = theMonth + '/' + theDay + '/' + theYear + ' ';
+	
+	$('#goodshopList').find('.item').each(function(){
+		var state_node = $(this).find('.state'),
+			isopen = $(this).attr('data-isopen'),
+			shipkill = $(this).attr('data-shipkill'),
+			startkill = $(this).attr('data-startkill'),
+			start2kill = $(this).attr('data-start2kill'),
+			startdate = $(this).attr('data-startdate'),
+			enddate = $(this).attr('data-enddate'),
+			startdate2 = $(this).attr('data-startdate2'),
+			enddate2 = $(this).attr('data-enddate2');
+		
+		
+		
+		if(isopen === '2'){
+			state_node.addClass('state_2').html('暂停营业');
+			return;
+		}
+		var thestartdate = Date.parse(today + startdate + ':00');
+		var theenddate = Date.parse(today + enddate + ':00');
+		var thestartdate2 = Date.parse(today + startdate2 + ':00');
+		var theenddate2 = Date.parse(today + enddate2 + ':00');
+		
+		if((startkill === '1' && thestartdate < sys_time && sys_time<theenddate)||(start2kill === '1' && thestartdate2 < sys_time && sys_time<theenddate2)){
+			showkill(!0);
+		}else{
+			showkill(!1);
+		}
+		function showkill(allow){
+			if(!!allow){
+				state_node.addClass('state_1').html('营业中');
+			}else{
+				shipkill === '0'?(state_node.addClass('state_3').html('打烊了')):(state_node.addClass('state_2').html('打烊了'));
+			}
+		}
+	});
+}
+</script>
+
+ <a href="http://www.mh163k.com/k/#" alt="返回顶端" id="returnTop">返回顶端</a></body></html>

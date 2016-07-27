@@ -1,0 +1,32 @@
+@charset "utf-8";
+html body { background:none;}
+.navWrap,.nav,.sub_nav_7,.sub_nav,.nav_footer { display:none;}
+#nav4 { display:block;}
+
+.fc_navWrap{background:#2299ee;margin-top: 3px;*margin-top: 20px;}
+.fc_nav{position: relative; z-index:1; *zoom:1;}
+.fc_nav li{	float:left;}
+.fc_nav li a{ height:40px; line-height:40px; padding:0 35px; display:block; color: #fff; font-size:16px;}
+.fc_nav li a:hover{	background-color:#63BA3B;}
+.fc_nav li a.select { background: #fff; color:#2299ee; border:0 none; position:static; float:none; border-top:3px solid #2299ee; margin:-2px 0 0 0;}
+.fc_nav .returnHome { float:right;}
+.fc_nav .returnHome a { background:url(../images/fcNav_returnHome.png) no-repeat 24px 11px; padding-left:50px;}
+
+.fc_pageNavigation { text-align:center; font-size:14px;}
+.fc_pageNavigation ul,.fc_pageNavigation li,.fc_pageNavigation span { display:inline-block; *display:inline; *zoom:1; vertical-align:middle;}
+.fc_pageNavigation span,.fc_pageNavigation li { border:1px solid #eee; color:#aaa; padding:8px 14px;}
+.fc_pageNavigation .current { border:1px solid #88929a; background-color:#88929a;}
+.fc_pageNavigation .current a { color:#fff;}.fc_pageNavigation .current a:hover { color:#fff; cursor:default; text-decoration:none;}
+
+.dlanBox { margin-bottom:15px;}
+.dlanBox .zone { padding:0 15px 15px; border:1px solid #eee; text-align:left;}
+.dlanBox .zone .hd { text-align:left; font-size:14px; font-weight:bold; color:#1559ca;}
+.daohang { text-align:left; line-height:24px; font-size:14px;}
+.daohang p { margin:18px 0 10px;}
+.daohang em { color:#999;}
+.daohang a { padding:4px 6px; margin:0 4px; display:inline-block; *display:inline; *zoom:1;}
+.daohang a.current,.daohang a.selected { color:#fff; font-weight:bold; background-color:#2299ee; border-radius:3px;}
+.daohang .subselect { overflow:hidden;}
+.daohang .subselect em { float:left;}
+.daohang .subselect .selected { color:#fff; font-weight:bold; background-color:#2299ee; border-radius:3px;}
+.daohang .selectBD { margin:0 5px 0 40px; border:1px solid #eaeaea; background-color:#fafafa; padding:10px;}

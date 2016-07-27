@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+A {text-decoration: NONE ; }
+.clearfix:after,.clearFix:after{content:"\020"; display: block; height:0; clear:both; visibility:hidden}
+.clearfix,.clearFix{zoom:1;}
+.sq_tuankuan{ width:730px; height:600px;color: #585858;zoom:1; background: url(images/tuikuan.png) no-repeat; position: absolute; left:36%; top:70%}
+.order_details_title{width:670px;margin: 16px 10px 0;padding:0 20px;border-bottom: 1px solid #d9d9d9;}
+.order_details_title strong{float: left;font: 22px/40px "Microsoft YaHei","SimHei"; margin-top:40px; margin-left:10px;}
+.order_details_title a{float: right;padding-top: 15px;}
+.a_nmq_module{ float:left; width:720px; text-align:left;padding: 18px 28px;font-size: 14px;}
+.a_nmq_list{ max-height:270px;_height:100px;margin: 0 10px;padding:6px 80px;overflow:auto;border: 1px solid #efefef;background-color: #f7fbfd;font-size: 14px; text-align:left;}
+.a_nmq_list label{display: block;padding: 3px 0;}
+.a_nmq_list input{vertical-align: top;*vertical-align: middle;margin-right: 15px;}
+.a_nmq_list span{margin-left: 30px; font-size:16px; font-weight:bolder;}
+.a_refund_list{padding: 12px 40px; text-align:left;font-size: 14px;border-bottom: 1px dotted #d9d9d9;overflow: hidden;zoom:1;}
+.tkfs .a_refund_content{overflow: hidden;zoom:1;}
+.a_refund_list .a_refund_money{line-height: 21px;display: inline-block;font-size: 18px;color: #fd4d7c; margin-top:10px;}
+.a_refund_list .a_refund_money span{color: #949494;margin-left: 20px;}
+.tkfs{padding: 12px 40px; text-align:left;font-size: 14px;border-bottom: 1px dotted #d9d9d9;overflow: hidden;zoom:1;}
+.tkfs .a_refund_way{font-weight: 400; position:relative; left:90px; bottom:16px;}
+.tkfs .a_refund_way label{display: block;padding-bottom: 5px;}
+.tkfs .a_refund_way input{vertical-align: top;*vertical-align: middle;margin-right: 5px;}
+.tkfs .a_refund_way span{display:block;color: #333;font-weight: 500;}
+.notes{padding: 12px 40px; text-align:left;font-size: 14px;border-bottom: 1px dotted #d9d9d9;overflow: hidden;zoom:1;}
+.notes .notessm{font-weight: 700; position:relative; left:90px; bottom:16px;}
+.a_submit{padding: 28px 130px;}
+.a_submit .error{display: none;color: #cc0000;margin: -10px 0 10px 0;}
+.a_submit  a{margin-left: 20px;height: 22px; }
+.a_submit a:hover{ color:#999}
+.pink_btn_new{display: inline-block;width:85px;height:21px;line-height:21px;color:#fff;text-align:center;border: 1px solid #fc668f;background-color: #fa5d82;box-shadow: inset 0 0 0 1px #fb7595;*border:none;}
+.pink_quxiao{ margin-left:200px;display: inline-block;width:85px;height:21px;line-height:21px;color:#fff;text-align:center;border: 1px solid #fc668f;background-color: #fa5d82;box-shadow: inset 0 0 0 1px #fb7595;*border:none;}

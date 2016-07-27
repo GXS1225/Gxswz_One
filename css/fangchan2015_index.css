@@ -1,0 +1,149 @@
+@charset "utf-8";
+.index_focus{height:500px;position:relative;color:#ffffff;}
+.index_focus .f_bg{position:absolute;top:0;left:0;width:100%;height:500px;z-index:1;}
+.index_focus .f_bg li{display:none;height:500px;}
+.index_focus .layout_house{position:relative;z-index:2;overflow:hidden;}
+.index_focus h3{text-align:center;font-size:54px;font-weight:bold;margin:60px 0 25px;}
+.index_focus p{font-size:20px;text-align:center;margin-bottom:30px;}
+.index_focus .price,.index_focus .zd{font-weight:bold;}
+.index_focus .search_box{width:710px;height:134px;position:relative;margin:0 auto 40px;padding:16px 40px 0;overflow:hidden;}
+.index_focus .search_box .sbg{position:absolute;top:0;left:0;width:790px;height:150px;background:#000;filter:alpha(opacity=40); opacity:0.4;-moz-opacity:0.4;}
+.index_focus .search_box .tabs{position:relative;z-index:1;font-size:18px;padding-left:2px; margin-left:-15px;}
+.index_focus .search_box .tabs li{float:left;width:80px;cursor:pointer;padding-bottom:12px;position:relative; text-align:center;}
+.index_focus .search_box .tabs li .arr,.lpzx .list li,.index_chuzu .tabs li i,.new_info .list dt,.index_rmenu li.top,.new_info .list li{background:url(../images/house_pc_icons.png) no-repeat;}
+.index_focus .search_box .tabs li .arr{width:12px;height:6px;position:absolute;bottom:0;left:50%; margin-left:-6px;display:none;}
+.index_focus .search_box .tabs a { color:#fff;}.index_focus .search_box .tabs a:hover { color:#fff;}
+.index_focus .search_box .tabs .current a { color:#2299ee;}
+.index_focus .search_box .tabs li.current{color:#2299ee;font-weight:bold;}
+.index_focus .search_box .tabs li.current .arr{display:block;}
+.index_focus .search_box .s_cond{position:relative;z-index:2;}
+.index_focus .search_box .s_cond .inp_txt{float:left;width:603px;height:48px;line-height:48px;background:#fff;color:#aaa;font-size:16px;padding-left:17px;font-family:'微软雅黑'; border:0 none; outline:0;}
+.index_focus .search_box .s_cond .so{width:90px;height:48px;background:#2299ee;font-size:18px;color:#fff;font-family:'微软雅黑'; border:0 none; outline:0; cursor:pointer;}
+.index_focus .search_box .skws{clear:both;margin-top:18px;position:relative;z-index:2;}
+.index_focus .search_box dt{float:left;}
+.index_focus .search_box dd{float:left;margin-right:6px;}
+.index_focus .search_box dd a{color:#fff;}
+.index_focus .search_box dd a:hover{text-decoration:underline;}
+.index_focus .type_info{position:relative;width:790px;height:40px;margin:auto;}
+.index_focus .type_info li{float:left;width:110px;height:40px;line-height:40px;text-align:center;font-size:18px;margin-right:10px;}
+.index_focus .type_info li a{color:#fff;display:block;height:40px;}
+.index_focus .type_info li.cz{background-color:#f6b756;}
+.index_focus .type_info li.cs{background-color:#85d55f;}
+.index_focus .type_info li.qz{background-color:#4eb5fc;}
+.index_focus .type_info li.qg{background-color:#f86b4e;}
+.index_focus .type_info li.jm{background-color:#ffb141;width:150px;}
+.index_focus .type_info li.fy{background-color:#fa8815;width:150px;margin:0;}
+
+/*热销楼盘*/
+.hot_lp,.index_leftbox{margin:20px 0 20px;float:left;width:880px;}
+.index_leftbox{margin:0;}
+.hot_lp .title{height:40px;}
+.hot_lp .title h3,.lpzx .title h3,.index_chuzu .title h3,.tj_ren .title h3,.new_info .title h3{color:#333333;font-size:20px;float:left;font-weight:normal;}
+.hot_lp .title .qy,.lpzx .title .more{float:right;padding-top:10px;font-size:14px;}
+.hot_lp .title .qy a{color:#888888;margin-left:8px;}
+.hot_lp .lp_list,.index_chuzu .list{border:1px solid #d8d8d8;padding:22px 0 0 19px;height:508px;}
+.hot_lp .lp_list {padding:22px 0 0 0;}
+.hot_lp .lp_list ul,.index_chuzu .list ul{position:relative;width:102%;}
+.hot_lp .lp_list .bd { margin:0 10px;}
+.hot_lp .lp_list ul {width:auto;}
+.hot_lp .lp_list .item,.index_chuzu .list li{float:left;width:195px;padding:0 20px 20px 0;}
+.hot_lp .lp_list .item {padding:0 9px 20px 10px;}
+.hot_lp .lp_list .item img,.index_chuzu .list li img{display:block;margin-bottom:15px; width:195px; height:145px; vertical-align:top;}
+.hot_lp .lp_list .item dl,.index_chuzu .list h5{line-height:24px;overflow:hidden;*zoom:1;}
+.hot_lp .lp_list .item dt{float:left;font-size:16px;width:6em;overflow:hidden; height:24px; overflow:hidden;}
+.hot_lp .lp_list .item dd{float:right;width:6em;overflow:hidden;font-size:14px;color:#888; text-align:right; height:24px;}
+.hot_lp .lp_list .item .price,.index_chuzu .list .price{color:#2299ee;font-size:14px;margin-top:6px; height:21px; overflow:hidden;}
+.hot_lp .lp_list .item a{color:#333;}
+.hot_lp .lp_list .item a:hover dd,.hot_lp .lp_list .item a:hover dt,.hot_lp .lp_list .item a:hover .price{ color:#2299ee; text-decoration:underline;}
+.hot_lp .num,.hot_lp .dot{text-align:center;height:3px;}
+.hot_lp .num span,.hot_lp .dot li{background:#9b9b9b;width:20px;height:3px;margin:0 3px;display:inline-block; *display:inline; *zoom:1;cursor:pointer; overflow:hidden; text-indent:-999em;}
+.hot_lp .num span.current,.hot_lp .dot li.on{background:#2299ee;}
+
+/*楼市资讯*/
+.lpzx,.tj_ren{float:right;width:300px;margin-top:20px;}
+.lpzx .title{height:40px;}
+.lpzx .title a{color:#333;}
+.lpzx .list{background:#f6f6f6 url(../images/lpzx_bg.jpg) no-repeat 0 bottom;height:517px;overflow:hidden; padding-top:15px;}
+.lpzx .list h4{height:36px;line-height:36px;font-size:17px; text-align:center;}
+.lpzx .list h4 a,.lpzx .list a:hover{color:#2299ee;}
+.lpzx .list ul{padding:0 10px 0 22px;}
+.lpzx .list li,.new_info .list dt{height:36px;line-height:36px;overflow:hidden;font-size:14px;padding-left:13px;background-position:0 -16px;}
+.lpzx .list a{color:#666;}
+
+.index_gg{margin-bottom:11px;clear:both;}
+.index_gg img{display:block;}
+
+/*出租*/
+.index_chuzu{margin:19px 0 27px;}
+.index_chuzu .title{position:relative;z-index:2;height:35px;}
+.index_chuzu .tabs{height:35px;line-height:35px;float:right;margin-top:1px;position:relative;z-index:2;}
+.index_chuzu .tabs li{float:left;width:80px;text-align:center;position:relative;color:#888888;font-size:14px;cursor:pointer;}
+.index_chuzu .tabs li i{position:absolute;bottom:-4px;left:50%;margin-left:-5px;background-position:-22px 0;width:10px;height:4px;display:none;}
+.index_chuzu .tabs li.selected{background:#2299ee;color:#fff;}
+.index_chuzu .tabs li.selected i{display:block;}
+.index_chuzu .bd { border:1px solid #d8d8d8; padding-bottom:24px;}
+.index_chuzu .list{padding-top:0;height:auto; border:0 none;}
+.index_chuzu .list h5{font-size:16px;font-weight:normal;color:#333; height:24px; overflow:hidden;}
+.index_chuzu .list p{font-size:14px;color:#888888;margin-top:8px;}
+.index_chuzu .list a:hover h5,.index_chuzu .list a:hover p,.index_chuzu .list a:hover .price { color:#2299ee; text-decoration:underline;}
+.index_chuzu .list ul{display:block;overflow:hidden;}
+.index_chuzu .list li{border-top:1px dashed #e6e6e6;margin:-1px 0 0;padding:22px 20px 28px 0;}
+.index_chuzu .list li .img { display:none;}
+.index_chuzu .list li:nth-child(4n){padding-right:0;}
+.index_chuzu .more,.tj_ren .list .more{margin:0 auto;width:138px;height:32px;line-height:32px;text-align:center;font-size:14px;border:1px solid #d8d8d8;}
+.index_chuzu .more a,.tj_ren .list .more a{color:#666;}
+
+/*出售*/
+.chushou{margin-bottom:0;}
+.chushou .tabs li.selected{background:#7ecb5a;}
+.chushou .tabs li i{background-position:-31px 0;}
+
+/*推荐经纪人*/
+.tj_ren{margin-top:19px;}
+.tj_ren .title{height:35px;overflow:hidden;}
+.tj_ren .list{background:#efefef;height:1002px;overflow:hidden;clear:both;padding-top:20px;}
+.tj_ren .list dl{margin-left:30px;}
+.tj_ren .list dt{float:left;width:100px; height:100px;clear:left;border-radius:50%; overflow:hidden;}
+.tj_ren .list dt img{display:block;width:100px;height:auto;}
+.tj_ren .list dd{float:right;width:150px;line-height:20px;color:#666666;padding-bottom:24px;}
+.tj_ren .list dd h4{font-size:14px;font-weight:normal;color:#333;margin-bottom:3px;}
+.tj_ren .list dd .link{width:76px;height:24px;line-height:24px;text-align:center;display:inline-block;color:#fff;background:#7ecb5a;margin-top:3px;}
+.tj_ren .list .more{width:148px;background:#fff;}
+
+/*最新求购信息*/
+.new_info,.ls_news{margin:12px 0 20px;}
+.new_info .title,.ls_news .title{height:35px;overflow:hidden;}
+.new_info .tabs{float:right;margin-top:15px;}
+.new_info .tabs li{float:left;width:20px;height:3px;background:#9b9b9b;margin-left:6px;cursor:pointer;}
+.new_info .tabs li.current{background:#2299ee;}
+.new_info .list{border:1px solid #d8d8d8;padding:22px 0 22px 20px;height:190px;}
+.new_info .list .pic{float:left;width:160px;}
+.new_info .list dl{float:left;width:310px;line-height:34px;position:relative;top:-12px;margin:0 12px 0 20px;}
+.new_info .list dt{float:left;width:232px;overflow:hidden;font-size:14px;padding-left:14px;}
+.new_info .list dd{float:right;color:#999999;}
+.new_info .list dt a{color:#666;}
+.new_info .list ul { position:relative; z-index:1; *zoom:1; top:-8px;}
+.new_info .list li { font-size:14px; float:left; width:265px; margin:0 12px 0 20px; line-height:34px; height:34px; overflow:hidden; position:relative; z-index:1; *zoom:1; vertical-align:top; padding:0 30px 0 15px; background-position:0 -16px;}
+.new_info .list li em { display:block; position:absolute; right:0; top:0; color:#999; font-size:12px;}
+
+/*楼市观点*/
+.ls_news .list{height:512px;background:#efefef url(../images/lpgd_bg.jpg) no-repeat 0 bottom;}
+
+/*中介品牌推荐*/
+.zjpp{background:#f6f6f6;margin-bottom:20px; clear:both;}
+.zjpp dt{background:#7ecb5a;font-size:14px;color:#fff;padding:12px 18px 10px;}
+.zjpp ul {padding:10px 0 10px 11px}
+.zjpp li { float:left; margin:8px;}
+.zjpp li img { vertical-align:top; width:180px; height:80px;}
+
+.index_rmenu{text-align:center;line-height:30px;width:50px;position:fixed;top:50%;left:50%;margin:-153px 0 0 615px;z-index:8;}
+.index_rmenu li{background-color:#f6f6f6;height:30px;margin-bottom:2px;cursor:pointer;}
+.index_rmenu li a{color:#666; display:block;}
+.index_rmenu li a:hover{color:#fff; background-color:#2299ee;}
+
+.index_rmenu li.current{background-color:#ffa73e;color:#fff;}
+.index_rmenu li.home{background:#7ecb5a;padding:10px 12px;line-height:16px;color:#fff;}
+.index_rmenu li.home a,.index_rmenu li.home a:hover{color:#fff;background-color:#7ecb5a;}
+.index_rmenu li.top{background-position:-55px -1597px;background-color:#f6f6f6;}
+
+.hot_lp .title .qy a:hover,.lpzx .title a:hover,.index_chuzu .more a:hover,.tj_ren .list .more a:hover,.new_info .list dt a:hover,.tj_ren .list dd h4 a:hover,.zjpp dd a:hover { color:#2299ee;}

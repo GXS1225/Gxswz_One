@@ -1,0 +1,95 @@
+@charset "utf-8";
+.site_reg .hd li,.site_reg .bd .rc,.site_reg .form_node .submit,.site_reg .form_node .submit2,.site_reg .form_node .safety_1 .s,.site_reg .form_node .safety_2 .s,.site_reg .form_node .safety_3 .s,.site_reg .form_node .error,.site_reg .form_node .success,.site_reg .float_bg,.site_reg_entrance .btn .link { background:url(../images/login2012.jpg) no-repeat 0 0;}
+
+.site_reg { margin-top:10px;}
+.site_reg .hd { position:relative; z-index:2; *zoom:1;}
+.site_reg .hd li { text-align:center; float:left; background-position:0 0; width:88px; height:42px; font:bold 14px/42px simsun; display:inline; margin-left:9px;}
+.site_reg .hd .select { background-position:-89px 0;}
+.site_reg .hd a { color:#666;}
+.site_reg .hd .select a { color:#333;}
+.site_reg .bd { border:1px solid #bdbdbd; position:relative; *zoom:1; z-index:1; margin-top:-1px; padding:30px 20px;}
+.site_reg .bd .rc { display:block; position:absolute; width:5px; height:5px; overflow:hidden;}
+.site_reg .bd .rc-tp-l { top:-1px; left:-1px; background-position:-178px 0;} 
+.site_reg .bd .rc-tp-r { top:-1px; right:-1px; background-position:-184px 0;} 
+.site_reg .bd .rc-bt-l { bottom:-1px; left:-1px; background-position:-178px -6px;} 
+.site_reg .bd .rc-bt-r { bottom:-1px; right:-1px; background-position:-184px -6px;}
+
+.site_reg .form_node { text-align:left;}
+.site_reg .form_node li { padding:17px 20px; overflow:hidden; *zoom:1; vertical-align:top;}
+.site_reg .login_ndoe .form_node li { padding:12px 20px;}
+.site_reg .login_ndoe .form_node .ai { padding:2px 20px;}
+.site_reg .login_ndoe .form_node .ai input { vertical-align:middle;}
+.site_reg .login_ndoe .bd { padding:60px 0;}
+.site_reg .form_node .a ,
+.site_reg .form_node .b ,
+.site_reg .form_node .c ,
+.site_reg .form_node .d ,
+.site_reg .form_node .e { display:block; float:left; line-height:30px;}
+.site_reg .form_node .a { font-size:14px; text-align:right; width:100px; color:#999; padding-top:3px}
+.site_reg .form_node .a .mi { text-decoration:none; color:#c00; padding-right:5px;}
+.site_reg .form_node .b{ width:360px; font-size:14px; color:#333;}
+.site_reg .form_node .c { color:#999; padding-top:3px}
+.site_reg .form_node .c img { vertical-align:-2px;}
+.site_reg .form_node .d { width:126px;}
+.site_reg .form_node .e { line-height:44px; font-size:14px;}
+.site_reg .form_node .e input { vertical-align:middle; margin-right:5px;}
+.site_reg .form_node .ipt { width:338px; font-size:14px; line-height:16px; height:16px; vertical-align:middle; padding:10px 5px; border:1px solid #ccc; outline:0; border-radius:3px; box-shadow:inset 0 1px 3px rgba(0,0,0,.1),0 1px 0 rgba(255,255,255,.1)}
+.site_reg .form_node .duan { width:80px;} 
+.site_reg .bd .form_node LI .question{vertical-align:middle; font-size:14px; font-weight:bold; color:#3f6f00; padding-left:8px; margin-top:10px;}
+#chkanswer{ position:relative; }
+.site_reg .form_node .yzm {  font-size:14px; font-weight:bold; color:#3f6f00; padding-left:6px;}
+.site_reg .form_node .yzm img{vertical-align:middle;}
+.site_reg .form_node .submit,.site_reg .form_node .submit2 { display:block; width:104px; height:44px; background-position:-190px 0; border:0 none; font:0pt/1000px Arial; overflow:hidden; cursor:pointer; outline:0;}
+.site_reg .form_node .submit2 { background-position:-295px 0;}
+.site_reg .form_node .posi { position:relative; z-index:1; *zoom:1;}
+.site_reg .form_node .safety_1,.site_reg .form_node .safety_2,.site_reg .form_node .safety_3 { display:none; font-size:12px; height:30px; position:absolute; top:32px; right:10px;}
+.site_reg .form_node .safety_1 .s,.site_reg .form_node .safety_2 .s,.site_reg .form_node .safety_3 .s { display:inline-block; *display:inline; *zoom:1; width:104px; height:13px; overflow:hidden; vertical-align:middle; background-position:-400px 0;}
+.site_reg .form_node .safety_2 .s { background-position:-400px -14px;}
+.site_reg .form_node .safety_3 .s { background-position:-400px -28px;}
+.site_reg .form_node .error { color:#c00; background-position:-486px -73px; padding-left:24px;}
+.site_reg .form_node .success { background-position:-486px -50px; padding-left:24px;}
+.site_reg .form_node .hide { display:none;}
+.site_reg .have_login { border:1px solid #e7e7e7; background-color:#fafafa; padding:50px 40px; position:absolute; top:35px; right:35px; text-align:left;} 
+.site_reg .have_login .txt { margin-bottom:10px; color:#666;}
+.site_reg .float_bg { position:absolute; top:35px; right:35px; width:411px; height:282px; overflow:hidden; background-position:0 -45px;} 
+
+.site_reg_entrance { margin-top:8px; background:url(../images/reg2012.jpg) no-repeat 0 0; position:relative; z-index:1; *zoom:1; height:532px;}
+.site_reg_entrance .hd { height:40px; overflow:hidden; font:0pt/1000px Arial;}
+.site_reg_entrance .ft { position:absolute; top:11px; right:12px;}
+.site_reg_entrance .left { text-align:left; float:left; width:485px; padding:107px 0 0 115px;}
+.site_reg_entrance .left li { line-height:30px; font-size:14px;}
+.site_reg_entrance .btn { padding:20px 0 0 0;}
+.site_reg_entrance .btn .link { display:block; width:104px; height:44px; font:0pt/1000px Arial; overflow:hidden; background-position:-190px 0;}
+
+.reg_tip { position:absolute; top:150px; left:50%; z-index:999; width:500px; margin-left:-331px; border:1px solid #91ceee; background-color:#e2f0ff; padding:100px 80px; text-align:center;}
+.reg_tip .pic {}
+.reg_tip .txt { margin-top:20px; font:20px/30px "黑体"; color:#333;}
+
+.reg_ndoe { position:relative; z-index:1; *zoom:1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

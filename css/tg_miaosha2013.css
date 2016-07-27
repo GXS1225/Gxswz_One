@@ -1,0 +1,16 @@
+@charset "utf-8";
+body { background:#dad1d2;}
+.tuan_nav { margin-top:0;}
+.footer { border-top:1px solid #ccc; margin-top:0; background:#fff;}
+.footer .left { display:inline; margin-left:10px;}
+.footer .right { display:inline; margin-right:10px;}
+.mt_list { padding-bottom:25px;}
+.tgms_banner { background:url(../images/tg_miaosha_banner.jpg) no-repeat 50% 0; height:509px;}
+.tgms_header { border-bottom:2px solid #d00; background:url(../images/tgms_2013_bg.png) repeat-x 0 0; padding:10px 0;}
+.tgms_header .right { margin-top:18px; font-size:14px;}
+
+
+
+
+
+

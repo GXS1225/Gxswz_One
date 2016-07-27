@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://www.mh163k.com/member/mylive.aspx -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>信息管理</title>
+<link href="./css/_userIndex.css" type="text/css" rel="stylesheet">
+<link href="./css/_userEdit.css" type="text/css" rel="stylesheet">
+<script src="./js/javascript.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/modify.js"></script>
+
+<style type="text/css">
+.btn_fabu,.btn_tuig,.btn_jingjia,.btn_edit,.btn_del { display:inline-block; color:#fff; vertical-align:middle; padding:2px 4px; display:inline; *zoom:1; font-size:12px;}
+.btn_fabu { background-color:#ee145c;}
+.btn_tuig { background-color:#168f16;}
+.btn_jingjia { background-color:#d85100;}
+.btn_edit { background-color:#095dc5;}
+.btn_del { background-color:#f61616;}
+.btn_fabu:hover,.btn_tuig:hover,.btn_jingjia:hover,.btn_edit:hover,.btn_del:hover { color:#fff;} 
+</style>
+
+</head>
+
+<body>
+
+<div id="floatwin">
+	<div id="fw_title">
+	<div class="left"></div><div class="right" onclick="javascript:$(&#39;#floatwin&#39;).hide(&#39;fast&#39;);"><img src="./images/closezhi.gif"></div>
+	</div>
+	<div id="fw_body"></div>
+	<iframe id="fw_hiddenifr" name="fw_hiddenifr" width="98%" height="260px" style="display:none" frameborder="0" marginwidth="0" marginheight="0" scrolling="No" src="./images/saved_resource.html"></iframe>
+	<div id="fw_button"><input id="fw_submit" type="button" value="确定" onclick="javascript:submit_fw()"><input id="fw_close" type="button" value="取消" onclick="javascript:$(&#39;#floatwin&#39;).hide(&#39;fast&#39;);"></div>
+	<div id="fw_load"><img src="./images/loader.gif" align="absmiddle"> 正在操作中，请稍等...</div>
+</div>
+
+<link href="./css/g2013.css" type="text/css" rel="stylesheet">
+<link href="./css/common2013.css" type="text/css" rel="stylesheet">
+<link href="./css/head_8.css" type="text/css" rel="stylesheet">
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/common2013.js"></script>
+<script src="./js/head8.js"></script>
+
+
+<div class="wrapper head8">
+<div class="public-top-layout">
+	<div class="topBar w-1200">
+		<div class="user-entry">
+			<img src="./images/icon.png">
+			<a href="http://www.mh163k.com/help/article_334.html" class="display1 mb_false_0">手机版</a><span class="display1 mb_false_0"></span>
+			<a href="http://www.mh163k.com/request.ashx?action=iswap&amp;iswap=1" class="display1 mb_true_0">返回手机版</a><span class="display1 mb_true_0"></span>
+			<a href="http://app.163k.com/download.aspx?id=12299" target="_blank">客户端</a><span></span>
+			<a href="javascript:void(0);" onclick="window.external.AddFavorite(&#39;http://www.mh163k.com/&#39;,&#39;163k地方门户网站系统&#39;);return false;">收藏本站</a>            
+		</div>
+		<div class="quick-menu login_info" id="login_info"><p class="login_success"><span class="username">ヤ浮稀依旧美丽</span>，您好！ <a href="http://www.mh163k.com/member/index.html">管理</a> <a href="javascript:loginout(&#39;http://www.mh163k.com/&#39;);">退出</a></p><dl class="xian"></dl><input value="1" id="isLogin" type="hidden"><input value="0" id="user_jibie" type="hidden">
+		   
+	       <dl> 
+	           <dt class="zn"><a href="http://www.mh163k.com/gift/index.html">积分商城</a></dt>
+	       </dl>
+	       <dl class="xian"></dl>
+	      <dl class="long hover">
+	        <dt><a href="javascript:void(0);">我的中心</a><i></i></dt>
+	        <dd>
+	          <ul>
+	            <li><a href="http://www.mh163k.com/member/modify.aspx">基本资料</a></li>
+	            <li><a href="http://www.mh163k.com/member/myorder.aspx?action=myshoucang">我的收藏</a></li>
+				<li><a href="http://www.mh163k.com/member/myorder.aspx">快店订单</a></li>
+	            <li><a href="http://www.mh163k.com/member/mytgorder.aspx">省啦订单</a></li>
+				<li><a href="http://www.mh163k.com/member/mylive.aspx">我的信息</a></li>
+	            <li><a href="http://www.mh163k.com/member/modify.aspx?action=pass">修改密码</a></li>
+	          </ul>
+	        </dd>
+	      </dl>
+	      <dl class="xian"></dl>
+	      <dl class="long">
+	        <dt><a href="javascript:void(0);">快速发布</a><i></i></dt>
+	        <dd>
+	          <p><a href="http://www.mh163k.com/live/fabu.html" target="_blank">生活信息</a></p>
+<p><a href="http://www.mh163k.com/member/myjianli.aspx#tt3" target="_blank">求职简历</a></p>
+<p><a href="http://www.mh163k.com/member/myzhiwei.aspx?action=add#tt7" target="_blank">招聘信息</a></p>
+<p><a href="http://www.mh163k.com/member/myarticle.aspx?action=add#tt6" target="_blank">新闻投稿</a></p>
+<p><a href="http://www.mh163k.com/company/join.aspx#tt8" target="_blank">登记店铺</a></p>
+<p><a href="http://www.mh163k.com/member/mygood.aspx?action=add#tt10" target="_blank">发布商品</a></p>
+<p><a href="http://www.mh163k.com/member/manage_chuzhu.aspx?action=add#tt3" target="_blank">房源出租</a></p>
+<p><a href="http://www.mh163k.com/member/manage_chushou.aspx?action=add#tt3" target="_blank">房源出售</a></p>
+	        </dd>
+	      </dl>
+	      <dl class="xian"></dl>
+	      <dl class="long">
+	        <dt><a href="javascript:void(0);">网站导航</a><i></i></dt>
+	        <dd>
+	          <ul>
+	            <li><a href="http://www.mh163k.com/help/">帮助中心</a></li>
+	            <li><a href="http://www.mh163k.com/service/">留言建议</a></li>
+	            <li><a href="http://www.mh163k.com/help/article_13.html">联系我们</a></li>
+	          </ul>
+	        </dd>
+	      </dl>
+	    </div>
+	</div>
+</div>
+<!--header-->
+<div class="header">
+	<div class="clearfix w-1200">
+		<div style="display:none;" id="ind_head_cb">{$Mh163k_首页重播广告}</div>
+		<div class="logo fl">
+			<a href="http://www.mh163k.com/"><img src="./images/201506240915412273038.jpg" alt="163k地方门户网站系统"></a>
+		</div>
+		<div class="search fl"><form id="searchform1" name="searchform1" method="post" target="_blank" action="http://www.mh163k.com/search.aspx">
+			<input type="hidden" id="keyword_c" name="c" value="1">
+			<div class="nav_bbs" id="nav">
+				<p class="set">生活信息</p>
+				<ul class="keyword_new">
+					<li data-val="1">生活信息</li>
+					<li data-val="2">店铺商家</li>
+					<li data-val="3">新闻资讯</li>
+					<li data-val="4">省啦项目</li>
+					<li data-val="5">招聘信息</li>
+					<li data-val="6">商品信息</li>
+					<li data-val="7">视频逛街</li>
+				</ul>
+			</div><input type="text" name="keyword" class="search_text" placeholder="请输入关键字">
+			<input type="submit" value="搜索" class="search_sub">
+			</form>
+		</div>
+		<a href="http://www.mh163k.com/live/fabu.html" class="hea_bot">免费发布信息</a>
+	</div>
+	<div class="navWrap clearfix">
+		<div class="nav w-1200" id="channel_nav">
+			<ul>
+				<li><a href="http://www.mh163k.com/" target="_self" class="bold0 select" style="color:;">首页</a></li><li><a href="http://www.mh163k.com/live/" target="_self" class="bold0" style="color:;">供求</a></li><li><a href="http://www.mh163k.com/tg/" target="_self" class="bold0" style="color:;">省啦</a></li><li><a href="http://www.mh163k.com/k/" target="_self" class="bold0" style="color:;">快店</a></li><li><a href="http://www.mh163k.com/company/" target="_self" class="bold0" style="color:;">店铺</a></li><li><a href="http://www.mh163k.com/huodong/" target="_self" class="bold0" style="color:;">活动</a></li><li><a href="http://www.mh163k.com/house/" target="_self" class="bold0" style="color:;">房产</a></li><li><a href="http://www.mh163k.com/job/" target="_self" class="bold0" style="color:;">招聘</a></li><li><a href="http://www.mh163k.com/article/" target="_self" class="bold0" style="color:;">资讯</a></li><li><a href="http://www.mh163k.com/video/" target="_self" class="bold0" style="color:;">视频</a></li><li><a href="http://www.mh163k.com/114/" target="_self" class="bold0" style="color:;">黄页</a></li><li><a href="http://www.mh163k.com/tieba/" target="_self" class="bold0" style="color:;">贴吧</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="content w-1200 clearfix">
+
+	<div class="breadcrumb">您当前的位置：<a href="http://www.mh163k.com/">首页</a> &gt; <a href="http://www.mh163k.com/member/">会员管理中心</a> &gt; 我的信息管理</div>
+	<!-- 主体 -->
+	<div id="content" class="clearfix">
+		<div class="col_main2">
+			<div class="edit_box">
+			<div id="contentfloat">
+        <div id="content">
+
+<div class="bigtitle clearfix"><p class="right"><a href="http://www.mh163k.com/live/fabu.html" class="global_btn_blue_big" style="height:30px; line-height:30px;">发布信息</a></p>我的信息管理</div>
+
+<table width="100%" cellpadding="0" cellspacing="0" class="tx_box">
+	<tbody><tr>
+		<td valign="top" style="width:70px; text-align:center;"><img src="./images/icon1.gif" width="53" height="53" alt=""></td>
+		<td class="tx_title"><span>重要提示：</span><br>
+		您可以编辑、删除您自己发布的信息
+
+		<br>
+		</td>
+	</tr>
+</tbody></table>
+<div class="ptag"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="width:100px" class="card_down">所有信息</td><td class="card_line"></td><td style="width:100px" class="card_normal"><a href="http://www.mh163k.com/member/mylive.aspx?colname=0#tt2">等待审核</a></td><td class="card_line"></td><td style="width:100px" class="card_normal"><a href="http://www.mh163k.com/member/mylive.aspx?colname=1#tt2">审核通过</a></td>
+<td class="card_line"></td>
+<td>&nbsp;<img src="./images/icon_arrow.gif" alt="">点击左侧书签进行切换</td></tr></tbody></table></div>
+<div style=" background-color:#fff; font-size:20px; text-align:center; padding:100px 0;" id="listEmpty">没有找到符合条件的信息</div>
+<!--<form name="aspnetForm" method="post" action="../request.aspx?action=other" id="aspnetForm">     
+     
+     <tr class="tabletitle" style="height:28px;">
+                <td ><input type="checkbox" id="chkall" value="checkbox" onClick="CheckAll(this.form);" /></td>
+                <td colspan="12" style="text-align:left;">选中/取消所有
+					<input type="button" name="submits" class="global_btn" value="批量刷新" onClick="set_fw(1,0);"  id="submits" /></td>     
+            </tr>
+            </form>-->
+		<div class="manu clearfix" style="text-align:center;"><a class="kill" href="javascript:;">&lt;</a>  <a class="kill" href="javascript:;">&gt;</a> </div>
+        </div>　
+	</div>
+			</div>
+		</div>
+		<div class="col_sub2">
+			<!-- 侧边栏菜单 开始 -->
+			<div class="side_bar">
+				<ul>
+					<ul id="list_nav_2013" class="list_nav_2013">
+	<li class="all"><a href="http://www.mh163k.com/member/">会员首页</a></li>
+	<li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items1&#39;);">账户管理</a>
+	<ul id="items1" class="ul" style="display:none;"><li><a href="http://www.mh163k.com/member/modify.aspx">基本资料</a></li><li><a href="http://www.mh163k.com/member/modify.aspx?action=jifen">消费明细</a></li><li><a href="http://www.mh163k.com/member/modify.aspx?action=consume">支付充值</a></li><li><a href="http://www.mh163k.com/member/myorder.aspx?action=myshoucang">我的收藏</a></li><li><a href="http://www.mh163k.com/member/modify.aspx?action=pass">修改密码</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items18&#39;);">订单管理</a>
+	<ul id="items18" class="ul" style="display:none;"><li><a href="http://www.mh163k.com/member/myorder.aspx?action=myshoppay">购物车</a></li><li><a href="http://www.mh163k.com/member/myorder.aspx?action=myaddress">地址管理</a></li><li><a href="http://www.mh163k.com/member/mytgorder.aspx">省啦订单</a></li><li><a href="http://www.mh163k.com/member/myorder.aspx">快店订单</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items19&#39;);">我的内容</a>
+	<ul id="items19" class="ul" style="display: block;"><li><a href="http://www.mh163k.com/member/mylive.aspx" class="cur">我的分类信息</a></li><li><a href="http://www.mh163k.com/member/myarticle.aspx">我投稿的文章</a></li><li><a href="http://www.mh163k.com/member/myce.aspx">我的相册</a></li><li><a href="http://www.mh163k.com/member/myvote.aspx">我的投票活动</a></li><li><a href="http://www.mh163k.com/member/myactive.aspx">我的同城活动</a></li><li><a href="http://www.mh163k.com/member/myduihuan.aspx?colname=0">我的礼品兑换</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items32&#39;);">求职管理</a>
+	<ul id="items32" class="ul" style="display:none;"><li><a href="http://www.mh163k.com/member/myjianli.aspx">填写全职简历</a></li><li><a href="http://www.mh163k.com/member/myjianli.aspx?styleid=1">更新全职简历</a></li><li><a href="http://www.mh163k.com/member/myjzjianli.aspx">填写兼职简历</a></li><li><a href="http://www.mh163k.com/member/myjzjianli.aspx?styleid=1">更新兼职简历</a></li><li><a href="http://www.mh163k.com/member/myrencai.aspx">收到的面试邀请</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items34&#39;);">房产管理</a>
+	<ul id="items34" class="ul" style="display:none;"><li><a href="http://www.mh163k.com/member/manage_chuzhu.aspx?action=add">发布出租</a></li><li><a href="http://www.mh163k.com/member/manage_chushou.aspx?action=add">发布出售</a></li><li><a href="http://www.mh163k.com/member/manage_chuzhu.aspx">房源管理</a></li><li><a href="http://www.mh163k.com/member/manage_zj.aspx">经纪人(中介)
+GO</a></li><li><a href="http://www.mh163k.com/member/jingjirenconfig.aspx">经纪人(绑定域名)</a></li><li><a href="http://www.mh163k.com/house/qiugou.aspx?tt=1" target="_blank">发布求租</a></li><li><a href="http://www.mh163k.com/house/qiugou.aspx" target="_blank">发布求购</a></li><li><a href="http://www.mh163k.com/member/loupan.aspx?action=add">录入楼盘</a></li><li><a href="http://www.mh163k.com/member/loupan.aspx">楼盘管理</a></li><li><a href="http://www.mh163k.com/member/xiaoqu.aspx?action=add">录入小区</a></li><li><a href="http://www.mh163k.com/member/xiaoqu.aspx">小区管理</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items44&#39;);">黄页管理</a>
+	<ul id="items44" class="ul" style="display:none;"><li><a href="http://www.mh163k.com/member/bianming.aspx?action=add">开通服务行业黄页</a></li><li><a href="http://www.mh163k.com/member/bianming.aspx">管理服务行业黄页</a></li><li><a href="http://www.mh163k.com/member/qiye.aspx?action=add">开通公司企业网站</a></li><li><a href="http://www.mh163k.com/member/qiye.aspx">管理公司企业网站</a></li><li><a href="http://www.mh163k.com/member/qiye.aspx?action=news">企业新闻管理</a></li><li><a href="http://www.mh163k.com/member/qiye.aspx?action=pic">企业产品管理</a></li><li><a href="http://www.mh163k.com/member/qiye.aspx?action=anli">客户案例管理</a></li><li><a href="http://www.mh163k.com/member/qiye.aspx?action=liuyan">客户留言管理</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items46&#39;);">互动管理</a>
+	<ul id="items46" class="ul" style="display:none;"><li><a href="http://www.mh163k.com/member/myrevert.aspx">我的评论</a></li><li><a href="http://www.mh163k.com/member/admin_tieba.aspx">我的帖子</a></li><li><a href="http://www.mh163k.com/member/admin_tieba.aspx?action=revert">我的回复</a></li></ul>
+</li>
+</ul>
+<script src="./images/dropDown2013.js"></script>
+<script>
+$(document).ready(function(){
+	var that=$('#list_nav_2013'),
+		url = window.location.href,
+		url_L = url.toLowerCase(),
+		channel = that.find('a'),
+		forlink;
+	channel.each(function(){
+		forlink = $(this).attr("href").toLowerCase();
+		forlink = forlink.replace('?','\\?');
+		var rec = new RegExp(forlink+"$", 'gi');
+
+		
+		if(rec.test(url_L)){
+			
+			that.find('.cur').removeClass();
+			$(this).addClass("cur");
+			$(this).parents('.rights').removeClass().addClass('xias');
+			$(this).parents('.ul').show();
+		}
+	});
+});
+</script>
+				</ul>
+			</div>
+			<!-- 侧边栏菜单 结束 -->
+		</div>
+	</div>
+	
+	<!-- 主体 结束 -->
+	</div>
+<div class="footWrap clearfix" id="footer">
+	<div class="foot_Top clearfix">
+		<div class="foot_box clearfix">
+			<div class="foot_TL">
+				<h2>客服电话</h2>
+				<span>4006755354</span>
+				<p>工作时间 周一至周六 8:00-17:30</p>
+				<b>客服QQ<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=910002968&amp;site=qq&amp;menu=yes" target="_blank"><img src="./images/pa" alt="点击咨询"></a></b>
+			</div>
+			<div class="foot_TM">
+				<dl>
+					<dt>购物</dt>
+					<dd><a href="http://www.mh163k.com/tg/">省啦商城</a></dd>
+					<dd><a href="http://www.mh163k.com/k/">同城快店</a></dd>
+					<dd><a href="http://www.mh163k.com/company/join.aspx">商家入驻</a></dd>
+					<dd><a href="http://www.mh163k.com/member/userindex_s.aspx">商家管理</a></dd>
+				</dl>
+				<dl>
+					<dt>供求</dt>
+					<dd><a href="http://www.mh163k.com/live/default.html?colname=1">跳蚤市场</a></dd>
+					<dd><a href="http://www.mh163k.com/live/default.html?colname=5">交友征婚</a></dd>
+					<dd><a href="http://www.mh163k.com/live/default.html?colname=6">商业服务</a></dd>
+					<dd><a href="http://www.mh163k.com/live/default.html?colname=3">同城活动</a></dd>
+				</dl>
+				<dl>
+					<dt>房产</dt>
+					<dd><a href="http://www.mh163k.com/house/loupan.html">新楼盘</a></dd>
+					<dd><a href="http://www.mh163k.com/house/chushou.html">二手房</a></dd>
+					<dd><a href="http://www.mh163k.com/house/chuzhu.html">出租房</a></dd>
+					<dd><a href="http://www.mh163k.com/house/zhongjie.html">找中介</a></dd>
+				</dl>
+				<dl>
+					<dt>招聘</dt>
+					<dd><a href="http://www.mh163k.com/job/zhiwei.html?key=0">找工作</a></dd>
+					<dd><a href="http://www.mh163k.com/job/rencai.html">找人才</a></dd>
+					<dd><a href="http://www.mh163k.com/member/myzhiwei.aspx?action=add">发招聘</a></dd>
+					<dd><a href="http://www.mh163k.com/member/myjianli.aspx?styleid=1">填简历</a></dd>
+				</dl>
+			</div>
+			<div class="foot_TR">
+				<div class="TR_LL">
+					<p>微信公众号</p>
+					<a href="javascript:void(0);"><img src="./images/201507100907139465099.jpg" alt="nihao163k"></a> 
+				</div>
+				<div class="TR_RR">
+					<p>APP客户端</p>	
+					<a href="http://app.163k.com/download.aspx?id=12299" target="_blank"><img src="./images/201509071154513472674.png"></a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="foot_Mid clearfix">
+		<div class="foot_MC">
+			<ul class="clearfix">
+				<li class="first"><a href="javascript:void(0);" onclick="this.style.behavior=&quot;url(#default#homepage)&quot;; this.setHomePage(&quot;http://www.mh163k.com/&quot;);return false;">设为首页</a></li><li><a href="javascript:void(0);" onclick="window.external.AddFavorite(&#39;http://www.mh163k.com/&#39;,&#39;163k地方门户网站系统&#39;);return false;">加为收藏</a></li><li><a href="http://www.mh163k.com/help/article_1.html" target="_blank">网站介绍</a></li><li><a href="http://www.mh163k.com/help/article_7.html" target="_blank">关于我们</a></li><li><a href="http://www.mh163k.com/help/article_10.html" target="_blank">服务条款</a></li><li><a href="http://www.mh163k.com/help/article_11.html" target="_blank">广告服务</a></li><li><a href="http://www.mh163k.com/help/article_12.html" target="_blank">招聘信息</a></li><li><a href="http://www.mh163k.com/help/article_14.html" target="_blank">免责声明</a></li><li><a href="http://www.mh163k.com/help/article_13.html" target="_blank">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="foot_Bot clearfix">
+		<p>Copyright @ 2003-2015 163k.com All Right Reserved @中国北京@为互联网事业发展助跑 <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备06006761号</a> <script src="./images/stat.php" language="JavaScript" charset="gb2312"></script><script src="./images/core.php" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1488135" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./images/pic.gif"></a></p>
+	</div>
+</div>
+</div>
+
+<script src="./js/select.jQuery.js"></script>
+<script>
+$(function() {
+	$('#mySle').selectbox();
+	$(document).modCity();
+	$('#fabu').showMore();
+	$('#weixin').showMore();
+	$.returnTop();
+});
+</script>
+<script type="text/javascript" src="./js/zhiqian.js"></script>
+
+
+<script language="JavaScript">
+var fw_ac,fw_id="";
+function submit_fw() {
+	$("#fw_button").hide();	$("#fw_load").show();
+	$.ajax({ url: "../request.aspx", data: "action=flushfenlei&tt="+escape(fw_id), type: "GET", cache: false, dataType:"text",
+		success: function(data){ 
+			$("#floatwin").css({width:'300px',height:'200px'});
+			if (data=='1') {
+				data="&nbsp;&nbsp;恭喜您，本条信息刷新发布成功！";
+				$("#im_"+fw_id).html("<span class='green'>刷新成功</span>");
+			}
+			else{
+				$("#im_"+fw_id).html("<span class='green'>出错啦</span>");
+			}
+			$("#fw_hiddenifr").hide();$("#fw_body").html(data);
+			$("#fw_submit").hide();
+			$("#fw_close").val("关闭");
+			$("#fw_button").show();	$("#fw_load").hide();
+		} ,
+		error: function() {
+			$("#fw_body").html("程序出错，操作未能完成！");
+			$("#fw_submit").hide();
+			$("#fw_close").val("关闭");
+			$("#fw_button").show();	$("#fw_load").hide();
+		}
+	});
+}
+function set_fw(ac,id) {
+	fw_ac=ac;fw_id=id;
+	if(fw_id=="0")
+		fw_id="";
+	if(fw_id=="")
+	{
+		var arrChk=$("input[name='ID']:checked");
+		$(arrChk).each(function(){
+			if(this.value!="0"){
+				if(fw_id!="")
+					fw_id +=",";
+				fw_id +=this.value;  
+			}
+		}); 
+	}
+	$("#fw_submit").show();$("#fw_hiddenifr").hide();
+	$("#fw_close").val("取消");
+	$("#floatwin").css({width:'500px',height:'200px'});
+	if (ac==1){
+		$("#fw_title div.left").html("刷新信息");
+		var val="<p>&nbsp;&nbsp;为了避免同一条信息重复发布，您可以使用“刷新发布”功能<Br>&nbsp;&nbsp;刷新发布后，您的该条信息将视同最新发布的信息<br>&nbsp;&nbsp;每刷新一次信息，需要扣除2金币</p>";
+		$("#fw_body").html(val);
+		$("#floatwin").runfloatwin();
+	}
+	
+}
+</script>
+
+
+ <a href="http://www.mh163k.com/member/mylive.aspx#" alt="返回顶端" id="returnTop">返回顶端</a></body></html>

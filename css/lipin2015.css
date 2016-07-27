@@ -1,0 +1,79 @@
+body{background:none!important;}
+i,em{font-style:normal;}
+.crumb-bar,.crumb-bar a,.lp-topinfo .user-head2,.lp-topinfo .user-info dt,.lp-list li dd,.lp-pop-fixed .title .close,.lp-pop-fixed .pro-info .info .price{background: url(../images/pc_icons_11.png) no-repeat;}
+.crumb-bar{height:20px;line-height:20px;color:#848484;margin:10px 0;padding-left:15px;background-position:-198px 3px;}
+.crumb-bar a{color:#848484;float:left;padding-right:12px;background-position:right -16px;}
+.crumb-bar span{float:left;}
+.crumb-bar .cur_tit{color:#2299ee;}
+.mb-16{margin-bottom:16px;}
+.zx-gg img{display:block;}
+a:hover{color:#2299ee;text-decoration:underline;}
+.mb-60{margin-bottom:60px;}
+
+.lp-topinfo{margin-bottom:24px;}
+.lp-banner{float:left;width:774px;height:76px;padding:292px 0 0 95px;font-size:14px;color:#274d00;line-height:24px;background:url(../images/lp_banner.jpg) no-repeat;}
+.lp-topinfo .user-login{border:1px solid #eee;width:261px;height:344px;float:left;padding:22px 33px 0;text-align:center;}
+.lp-topinfo .user-head2{margin:0 auto 18px;width:122px;height:122px;border-radius:50%;background-color:#d5d5d5;background-position:26px -1483px;overflow:hidden;}
+.lp-topinfo p{font-size:18px;color:#666;}
+.lp-topinfo p a{color:#666;}
+.hide{display:none;}
+.lp-topinfo .user-info p{border-bottom:1px dashed #eee;padding-bottom:16px;margin-bottom:22px;}
+.lp-topinfo .user-info dl{height:34px;line-height:34px;font-size:16px;color:#999;margin-bottom:33px;}
+.lp-topinfo .user-info dt{float:left;padding-left:34px;background-position:-182px -1467px;}
+.lp-topinfo .user-info dd{float:right;}
+.lp-topinfo .user-info .count{color:#2299ee;font-size:24px;}
+.lp-topinfo .user-info .ent{display:block;background:#2299ee;height:46px;line-height:46px;font-size:18px;color:#fff;}
+.lp-list{border:1px solid #eee;border-left:0;}
+.lp-list ul{overflow:hidden;position:relative;width:1200px;}
+.lp-list li{float:left;width:263px;border-left:1px solid #eee;border-top:1px solid #eee;margin:-1px 0 0 0px;position:relative;padding:22px 18px 0;}
+.lp-list li img{display:block;width:238px;height:238px;margin:0 auto 22px;}
+.lp-list li p{font-size:16px;color:#646464;line-height:26px;height:52px;overflow:hidden;}
+.lp-list li dl{height:26px;line-height:26px;color:#c2c2c2;font-size:14px;margin:10px 0;}
+.lp-list li dt{float:left;}
+.lp-list li dd{float:right;padding-left:27px;background-position:0 -1444px;}
+.lp-list li .price{color:#2299ee;font-size:18px;}
+.lp-list li s{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background:#000;filter:alpha(opacity=58); opacity:0.58;-moz-opacity:0.58;display:none;}
+.lp-list li .duihuan{position:absolute;top:50%;left:50%;width:164px;height:50px;line-height:50px;z-index:2;margin:-25px 0 0 -82px;background:#2299ee;color:#fff;font-size:18px;text-align:center;border-radius:5px;cursor:pointer;display:none;}
+.lp-list li .duihuan a{color:#fff;}
+.lp-list li:hover s,.lp-list li:hover .duihuan{display:block;}
+.lp-sm{font-size:14px;background:url(../images/lp_smbg.jpg) no-repeat;padding:42px 0 0 350px;height:135px;}
+.lp-sm h4{font-size:18px;color:#00acc5;margin-bottom:10px;font-weight:normal;}
+.lp-sm p{color:#b2a03b;line-height:26px;}
+
+.lp-pop-fixed{position:absolute;top:50%;left:50%;height:768px;width:944px;margin:-384px 0 0 -472px;border-radius:10px;overflow:hidden;background:#fff;z-index:1001;display:none;}
+.lp-pop-fixed .title{height:55px;line-height:55px;background:#2299ee;font-size:18px;color:#fff;padding-left:45px;}
+.lp-pop-fixed .title .close{position:absolute;top:19px;right:40px;height:20px;width:20px;background-position:-188px -1527px;text-indent:-999px;overflow:hidden;cursor:pointer;}
+.lp-pop-fixed .con{padding:20px 48px;}
+.lp-pop-fixed .pro-info{border:1px solid #eee;padding:14px 24px;margin-bottom:16px;}
+.lp-pop-fixed .pro-info .pic{float:left;width:300px;height:300px;}
+.lp-pop-fixed .pro-info .pic img{display:block;width:300px;height:300px;}
+.lp-pop-fixed .pro-info .info{float:right;width:476px;color:#999;line-height:26px;font-size:14px;}
+.lp-pop-fixed .pro-info .info h4{margin-bottom:22px;font-size:16px;color:#333;font-weight:normal;}
+.lp-pop-fixed .pro-info .info .price{padding-left:28px;background-position:-194px -1421px;}
+.lp-pop-fixed .pro-info .info .price em{color:#2299ee;font-size:18px;}
+.lp-pop-fixed .pro-info .info li{float:left;margin-right:25px;}
+.lp-pop-fixed .pro-info .info p{padding-top:10px;text-indent:2em;border-top:1px dashed #eee;margin-top:20px;}
+.lp-pop-fixed .pro-info .info em{font-size:18px;}
+.lp-pop-fixed .user-info{line-height:37px;padding-bottom:11px;border-bottom:1px dashed #eee;margin-bottom:22px;}
+.lp-pop-fixed .user-info input[type='text']{background:#f3f3f3;line-height:37px;height:37px;font-size:14px;color:#9f9f9f;padding-left:10px;}
+.lp-pop-fixed .user-info dt{float:left;width:84px;height:37px;clear:both;font-size:16px;margin-bottom:14px;}
+.lp-pop-fixed .user-info dd{float:left;width:760px;height:37px;margin-bottom:14px;}
+.lp-pop-fixed .user-info .userName,.lp-pop-fixed .user-info .phone{width:298px;}
+.lp-pop-fixed .user-info .address{width:566px;}
+.lp-pop-fixed .pro-name,.lp-pop-fixed .deduct{color:#999;font-size:14px;line-height:26px;}
+.lp-pop-fixed .pro-name em,.lp-pop-fixed .deduct em{color:#2299ee;font-size:16px;margin:0 6px;}
+.lp-pop-fixed .lp-btn{padding-left:85px;margin-top:28px;}
+.lp-pop-fixed .lp-btn .ok,.lp-pop-fixed .lp-btn .cancel{width:115px;height:46px;line-height:46px;color:#fff;font-size:18px;margin-right:20px;border-radius:5px;background:#a0a0a0;cursor:pointer;}
+.lp-pop-fixed .lp-btn .ok{background:#63ba3b;}
+
+.masklayer,#mask{background:#000;filter:alpha(opacity=37); opacity:0.37;-moz-opacity:0.37;position:fixed;top:0;left:0;width:100%;height:100%;z-index:998;}
+
+.fc_pageNavigation { text-align:center; font-size:14px;margin:55px 0 20px;}
+.fc_pageNavigation ul,.fc_pageNavigation li,.fc_pageNavigation span { display:inline-block; *display:inline; *zoom:1; vertical-align:middle;}
+.fc_pageNavigation span,.fc_pageNavigation li { border:1px solid #eee; color:#aaa; padding:8px 14px;display:inline-block;}
+.fc_pageNavigation a{color:#666;display:inline-block;padding:8px 14px;border:1px solid #eee;}
+.fc_pageNavigation .kill{color:#aaa;}
+.fc_pageNavigation .current{ border:1px solid #88929a; background-color:#88929a;color:#fff;}
+.fc_pageNavigation .current a,.fc_pageNavigation .current a:hover { color:#fff; cursor:default; text-decoration:none;}
+
+#DialogMove{border:0!important;border-radius:10px;overflow:hidden;}
